@@ -20,8 +20,12 @@ def merge(list_a):
         else:
             final_list.append(2*new_list[k])
             k+=2
-    else:
-        final_list.append(new_list[k])
+
+    if k==len(new_list)-1:
+        final_list.append(new_list[-1])
+
+    elif k==len(new_list):
+        pass
     
     
     while len(final_list)<len(list_a):
@@ -29,6 +33,6 @@ def merge(list_a):
             
     return final_list
 
-a=[8,16,16,8]
+a=[4,4,4,4]
 
 print (merge(a))
