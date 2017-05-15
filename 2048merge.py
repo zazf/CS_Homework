@@ -1,3 +1,7 @@
+# Accelerated Computer Science @ BDFZ Spring 2017
+# Assignment: 2048 Merge
+# By Zhang Zhifei
+
 def merge(list_a):
     
     new_list=[]
